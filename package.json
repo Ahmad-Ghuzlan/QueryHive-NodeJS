@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Ahmad Ghuzlan & Thamer Ghuzlan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.4",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "spotify-web-api-node": "^5.0.2",
+    "uuid": "^11.0.3"
+  }
+}
